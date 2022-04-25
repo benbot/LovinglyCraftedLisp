@@ -1,0 +1,6 @@
+expression -> "(" expression?+ ")" | literal | atom
+atom -> letter atom_part
+atom_part -> empty | letter atom_part | number atom_part
+literal -> NUMBER | STRING
+empty -> " "
+"()" -> empty

@@ -1,0 +1,10 @@
+# Lovingly Crafted Lisp
+
+## What is this?
+I've been reading a book on writing interpreters and wanted to try out implementing a very small lisp.
+
+The goal, right now, is to make a little text based calculator in LCL.
+
+## Why Deno?
+I work with typescript for my day job, so it's easy for me to whip up something fast in it. 
+Plus I like how flexible it is.
